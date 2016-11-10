@@ -1,0 +1,93 @@
+html, body{
+			height: 100%;
+			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+			margin:0;
+		}
+		.container{
+			margin: auto;
+			background-color: #F2F2F2;
+			min-height: 100%;
+    		max-width: 800px;
+    		min-width: 300px;
+    		text-align: center;
+			color: #444;
+    	}
+		.nav{
+			background-color: #333;
+		}
+    	.navbar-brand{
+			color: #f1f1f1;
+			font-size: 30px;
+			padding-left: 50px;
+			height: 70px;
+			line-height: 1.1;
+			padding-top: 30px;
+			text-align: left;
+		}
+		.navbar-container{
+			width: 100%;
+			background-color: #333;
+			display: inline-block;
+			vertical-align: top;
+			padding-top: 10px;
+		}
+		.navbar{
+			width: 300px;
+			background-color: #333;
+			margin: auto;
+			list-style: none;
+			text-align: center;
+			padding-left: 0;
+		}
+		.navbar .active, .navbar a:hover{
+			color: #fff;
+			text-decoration: none;
+			background-color: #222;
+			width: 100px;
+		}
+		.navbar li{
+			float: left;
+		}
+		.navbar li a{
+			color: #999;
+			display: block;
+			padding-top: 16px;
+			padding-bottom:16px; 
+			text-decoration: none;
+			font-size: 14px;
+			width: 100px;
+		}
+		.row{
+			text-align: left;
+			padding:0 60px 0 60px;
+		}
+		.row a{
+			text-decoration: none;
+			outline: none;
+			color: #337ab7;	
+		}
+		.education, .skills{
+			padding-bottom: 20px;
+			padding-top: 10px;
+		}
+		h1{
+			margin-bottom: 0;
+			color: #333;
+		}
+		.fa{
+			font-size: 13px;
+			float: left;
+			padding-right: 5px;
+			padding-top: 3px;
+		}
+		.empty {
+        height: 20px;
+      	}
+		.footer {
+      	margin: 0 auto;
+        max-width: 800px;
+        min-width: 300px;
+        background: #333;
+        height: 20px;
+        margin-top: -20px;
+		}
