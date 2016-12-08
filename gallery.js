@@ -30,6 +30,17 @@ event.preventDefault();
  a.id = "modal_close";
  a.innerHTML = "X";
  div2.appendChild(a);
+
+ var loading = document.createElement('p')
+ img.id = 'loading'
+ loading.innerHTML = 'Loading...'
+ loading.style.color = '#fff'
+ loading.style.fontSize = '40px'
+ loading.style.height = '20px'
+ loading.style.marginTop = '25%'
+ div2.appendChild(loading);
+
+ 
  var img = document.createElement('img');
  img.src = addr;
  img.className = "popup_img"
