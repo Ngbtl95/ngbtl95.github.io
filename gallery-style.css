@@ -114,9 +114,7 @@ html, body{
 	z-index:2;
 	max-height:80%;
 	max-width:80%;
-	top:15%;
-
-
+	top:16%;
 }
 #modal_close {
  	color: #888;
@@ -124,8 +122,8 @@ html, body{
 	float: right;
 	z-index:2;
 	max-width: 20px;
-	height: 20px;
-	margin-top: 40px;
+	height: 10px;
+	margin-top: 3%;
 	cursor: pointer;
 	display: block;
 	text-decoration: none;
