@@ -3,7 +3,7 @@ function load(){
 	url = window.location.toString();
 	if (url[url.length - 1] == '0'){
 		localStorage['opened_img'] = 0
-		window.location.assign('vk.com')
+		window.location.assign('gallery.html')
 	}
 	opened_img = localStorage['opened_img'];
  	if (localStorage['opened_img'] != 0)
