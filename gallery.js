@@ -1,5 +1,5 @@
 function load(){
-	path = 'ngbtl95.github.io/gallery.html'
+	var path = 'ngbtl95.github.io/gallery.html'
 	url = window.location.toString();
 	if (url[url.length - 1] == '0'){
 		localStorage['opened_img'] = 0
