@@ -44,7 +44,7 @@ function create_popup(addr){
 
  	var img = document.createElement('img');
  	img.src = addr;
- 	img.className = "popup_img"
+ 	img.id = "popup_img"
  	popup.appendChild(img);
 
  	return(img);
