@@ -114,6 +114,7 @@ a img:hover{
 	top:16%;
 }
 #loading {
+	position: relative;
 	z-index: 1;
 	color: #fff;
     font-size: 40px;
@@ -121,6 +122,7 @@ a img:hover{
  	margin-top: 25%;
 }
 #modal_close {
+	position: relative;
  	color: #888;
 	font-size: 40px;
 	float: right;
