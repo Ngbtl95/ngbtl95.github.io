@@ -60,7 +60,38 @@ function open_img(id){
  	img_name = img_name[0]
  	addr = addr.replace("little-image", "big-image");
 	localStorage.setItem('opened_img', id);
-	img = create_popup(addr)
+	//img = create_popup(addr)
+
+	var path = "ngbtl95.github.io/gallery.html?"
+
+	var popup = document.createElement('div');
+ 	popup.className = "popup";
+ 	container = document.getElementsByClassName('container')[0]
+ 	popup_height = container.offsetHeight + 'px'
+ 	popup.style.height = popup_height;
+ 	document.body.appendChild(popup)
+
+ 	var popup_bg = document.createElement('div');
+ 	popup_bg.className = "popup_bg";
+ 	popup.appendChild(popup_bg);
+
+ 	var modal_close = document.createElement('a');
+  	modal_close.id = "modal_close";
+	modal_close.innerHTML = "X";
+ 	modal_close.href = "/gallery.html?" + '0';
+ 	popup_bg.appendChild(modal_close);
+
+ 	var loading = document.createElement('p')
+ 	loading.id = 'loading'
+ 	loading.innerHTML = 'Loading...'
+ 	popup_bg.appendChild(loading);
+
+ 	var img = document.createElement('img');
+ 	img.src = addr;
+ 	img.id = "popup_img"
+ 	popup.appendChild(img);
+
+
  	addEventListener('keydown', function keydownListen(event){
  		if (event.keyCode == 27){
  			close_img();
