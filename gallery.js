@@ -34,7 +34,7 @@ function create_popup(addr){
  	var modal_close = document.createElement('a');
   	modal_close.id = "modal_close";
 	modal_close.innerHTML = "X";
- 	modal_close.href = "ngbtl95.github.io/gallery.html?" + '0';
+ 	modal_close.href = "/gallery.html?" + '0';
  	popup_bg.appendChild(modal_close);
 
  	var loading = document.createElement('p')
