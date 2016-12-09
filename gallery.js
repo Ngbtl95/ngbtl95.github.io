@@ -38,7 +38,7 @@ function create_popup(addr){
  	popup_bg.appendChild(modal_close);
 
  	var loading = document.createElement('p')
- 	loading.class = 'loading'
+ 	loading.id = 'loading'
  	loading.innerHTML = 'Loading...'
  	popup_bg.appendChild(loading);
 
