@@ -88,7 +88,7 @@ function open_img(id){
 
  	var img = document.createElement('img');
  	img.src = addr;
- 	img.id = "popup_img"
+ 	img.className = "popup_img";
  	popup.appendChild(img);
 
 
